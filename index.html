@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Tests de Estudio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        
+        <!-- PANTALLA 1: INICIO (ASIGNATURAS) -->
+        <div id="pantalla-inicio">
+            <h1>📚 Mis Asignaturas</h1>
+            <button class="btn btn-diseño" onclick="irAsignatura('Diseño de Interfaces Web', 'tests-diw')">
+                Diseño de Interfaces Web
+            </button>
+            <button class="btn btn-ingles" onclick="irAsignatura('Inglés Profesional', 'tests-ingles')">
+                Inglés Profesional
+            </button>
+            <button class="btn btn-empleabilidad" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">
+                Itinerario para la Empleabilidad II
+            </button>
+            <button class="btn btn-digitalizacion" onclick="irAsignatura('Digitalización Aplicada', 'tests-digitalizacion')">
+                Digitalización Aplicada
+            </button>
+            <button class="btn btn-sostenibilidad" onclick="irAsignatura('Sostenibilidad Aplicada al Sistema Productivo', 'tests-sostenibilidad')">
+                Sostenibilidad Aplicada
+            </button>
+            <button class="btn btn-dawes" onclick="irAsignatura('Desarrollo de Aplicaciones Web Entorno Servidor', 'tests-dawes')">
+                Desarrollo Entorno Servidor
+            </button>
+            <button class="btn btn-despliegue" onclick="irAsignatura('Despliegue de Aplicaciones Web', 'tests-despliegue')">
+                Despliegue de Aplicaciones
+            </button>
+            <button class="btn btn-python" onclick="irAsignatura('Programación en Python', 'tests-python')">
+                Programación en Python
+            </button>
+            <button class="btn btn-cliente" onclick="irAsignatura('Desarrollo Entorno Cliente', 'tests-cliente')">
+                Desarrollo Entorno Cliente
+            </button>
+        </div>
+
+        <!-- PANTALLA 2: LISTA DE TESTS DE LA ASIGNATURA -->
+        <div id="pantalla-asignatura" class="oculto">
+            <h2 id="titulo-asignatura">Asignatura</h2>
+            
+            <!-- TESTS DE DISEÑO DE INTERFACES WEB -->
+            <div id="tests-diw" class="grid-tests oculto">
+                <button class="btn" onclick="irTest('Kahoot! 1')">Kahoot! 1</button>
+                <button class="btn" onclick="irTest('Kahoot! 2')">Kahoot! 2</button>
+                <button class="btn" onclick="irTest('Kahoot! 3')">Kahoot! 3</button>
+                <button class="btn" onclick="irTest('Kahoot! 4')">Kahoot! 4</button>
+                <button class="btn" onclick="irTest('Kahoot! 5')">Kahoot! 5</button>
+                <button class="btn" onclick="irTest('Kahoot! 6')">Kahoot! 6</button>
+                <button class="btn" onclick="irTest('Kahoot! 7')">Kahoot! 7</button>
+                <button class="btn" onclick="irTest('Kahoot! 8')">Kahoot! 8</button>
+                <button class="btn btn-campus" onclick="irTest('TestCampus9')">Tema 9</button>
+                <button class="btn btn-campus" onclick="irTest('TestCampus10')">Tema 10</button>
+                <button class="btn btn-examen" onclick="irTest('Examen 1T')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irTest('Examen 2T')">Examen 2T</button>
+            </div>
+
+            <!-- TESTS DE INGLÉS PROFESIONAL -->
+            <div id="tests-ingles" class="grid-tests oculto">
+                <button class="btn" onclick="irTest('Inglés - Tema 1')">Tema 1</button>
+                <button class="btn" onclick="irTest('Inglés - Tema 2')">Tema 2</button>
+                <button class="btn" onclick="irTest('Inglés - Tema 3')">Tema 3</button>
+                <button class="btn" onclick="irTest('Inglés - Tema 4')">Tema 4</button>
+                <button class="btn" onclick="irTest('Inglés - Tema 5')">Tema 5</button>
+                <button class="btn btn-examen" onclick="irTest('Inglés - Trimestre 1')">Examen Trimestre 1</button>
+                <button class="btn btn-examen" onclick="irTest('Inglés - Trimestre 2')">Examen Trimestre 2</button>
+            </div>
+
+            <!-- TESTS DE ITINERARIO PARA LA EMPLEABILIDAD II -->
+            <div id="tests-ipe" class="grid-tests oculto">
+                <button class="btn" onclick="irAsignatura('IPE - Tema 1', 'submenu-ipe-t1')">Tema 1</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 2', 'submenu-ipe-t2')">Tema 2</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 3', 'submenu-ipe-t3')">Tema 3</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 4', 'submenu-ipe-t4')">Tema 4</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 5', 'submenu-ipe-t5')">Tema 5</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 6', 'submenu-ipe-t6')">Tema 6</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 7', 'submenu-ipe-t7')">Tema 7</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 8', 'submenu-ipe-t8')">Tema 8</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 9', 'submenu-ipe-t9')">Tema 9</button>
+                <button class="btn" onclick="irAsignatura('IPE - Tema 10', 'submenu-ipe-t10')">Tema 10</button>
+                <button class="btn btn-examen" onclick="irAsignatura('IPE - Examen 1T', 'submenu-ipe-1t')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irAsignatura('IPE - Examen 2T', 'submenu-ipe-2t')">Examen 2T</button>
+            </div>
+
+                <!-- SUBMENÚS IPE: TEMAS 1 AL 10 -->
+                <div id="submenu-ipe-t1" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 1 Fácil')">Tema 1 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 1 Difícil')">Tema 1 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t2" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 2 Fácil')">Tema 2 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 2 Difícil')">Tema 2 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t3" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 3 Fácil')">Tema 3 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 3 Difícil')">Tema 3 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t4" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 4 Fácil')">Tema 4 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 4 Difícil')">Tema 4 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t5" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 5 Fácil')">Tema 5 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 5 Difícil')">Tema 5 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t6" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 6 Fácil')">Tema 6 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 6 Difícil')">Tema 6 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t7" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 7 Fácil')">Tema 7 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 7 Difícil')">Tema 7 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t8" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 8 Fácil')">Tema 8 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 8 Difícil')">Tema 8 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t9" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 9 Fácil')">Tema 9 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 9 Difícil')">Tema 9 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-ipe-t10" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 10 Fácil')">Tema 10 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Empleabilidad - Tema 10 Difícil')">Tema 10 Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+
+                <div id="submenu-ipe-1t" class="grid-tests oculto">
+                    <button class="btn btn-examen" onclick="irTest('Empleabilidad - Examen 1T Fácil')">Examen 1T Fácil ... 😑</button>
+                    <button class="btn btn-examen" onclick="irTest('Empleabilidad - Examen 1T Difícil')">Examen 1T Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+
+                <div id="submenu-ipe-2t" class="grid-tests oculto">
+                    <button class="btn btn-examen" onclick="irTest('Empleabilidad - Examen 2T Fácil')">Examen 2T Fácil ... 😑</button>
+                    <button class="btn btn-examen" onclick="irTest('Empleabilidad - Examen 2T Difícil')">Examen 2T Respuestas Variadas</button>
+                    <button class="btn btn-volver" style="grid-column: 1 / -1; margin-top: 15px;" onclick="irAsignatura('Itinerario Personal para la Empleabilidad II', 'tests-ipe')">⬅ Volver a Temas</button>
+                </div>
+
+            <!-- TESTS DE DIGITALIZACIÓN -->
+            <div id="tests-digitalizacion" class="grid-tests oculto">
+                <button class="btn" onclick="irTest('Digitalización - Tema 1')">Tema 1</button>
+                <button class="btn" onclick="irTest('Digitalización - Tema 2')">Tema 2</button>
+                <button class="btn" onclick="irTest('Digitalización - Tema 3')">Tema 3</button>
+                <button class="btn" onclick="irTest('Digitalización - Tema 4')">Tema 4</button>
+                <button class="btn" onclick="irTest('Digitalización - Tema 5')">Tema 5</button>
+                <button class="btn btn-examen" onclick="irTest('Digitalización - Examen 1T')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irTest('Digitalización - Examen 2T')">Examen 2T</button>
+            </div>
+
+            <!-- TESTS DE SOSTENIBILIDAD -->
+            <div id="tests-sostenibilidad" class="grid-tests oculto">
+                <button class="btn" onclick="irTest('Sostenibilidad - Tema 1')">Tema 1</button>
+                <button class="btn" onclick="irTest('Sostenibilidad - Tema 2')">Tema 2</button>
+                <button class="btn" onclick="irTest('Sostenibilidad - Tema 3')">Tema 3</button>
+                <button class="btn" onclick="irTest('Sostenibilidad - Tema 4')">Tema 4</button>
+                <button class="btn" onclick="irTest('Sostenibilidad - Tema 5')">Tema 5</button>
+                <button class="btn btn-examen" onclick="irTest('Sostenibilidad - Examen 1T')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irTest('Sostenibilidad - Examen 2T')">Examen 2T</button>
+            </div>
+
+            <!-- TESTS DE ENTORNO SERVIDOR -->
+            <div id="tests-dawes" class="grid-tests oculto">
+                <button class="btn" onclick="irTest('DAWES - Tema 1')">Tema 1</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 2')">Tema 2</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 3')">Tema 3</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 4')">Tema 4</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 5')">Tema 5</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 6')">Tema 6</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 7')">Tema 7</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 8')">Tema 8</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 9')">Tema 9</button>
+                <button class="btn" onclick="irTest('DAWES - Tema 10')">Tema 10</button>
+                <button class="btn btn-examen" onclick="irTest('DAWES - Examen 1T')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irTest('DAWES - Examen 2T')">Examen 2T</button>
+            </div>
+
+            <!-- TESTS DE DESPLIEGUE -->
+            <div id="tests-despliegue" class="grid-tests oculto">
+                <button class="btn" onclick="irTest('Despliegue - Tema 1')">Tema 1</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 2')">Tema 2</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 3')">Tema 3</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 4')">Tema 4</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 5')">Tema 5</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 6')">Tema 6</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 7')">Tema 7</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 8')">Tema 8</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 9')">Tema 9</button>
+                <button class="btn" onclick="irTest('Despliegue - Tema 10')">Tema 10</button>
+                <button class="btn btn-examen" onclick="irTest('Despliegue - Examen 1T')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irTest('Despliegue - Examen 2T')">Examen 2T</button>
+            </div>
+            
+            <!-- TESTS DE PYTHON -->
+            <div id="tests-python" class="grid-tests oculto">
+                <button class="btn" onclick="irAsignatura('Python - Tema 1', 'submenu-python-t1')">Tema 1</button>
+                <button class="btn" onclick="irAsignatura('Python - Tema 2', 'submenu-python-t2')">Tema 2</button>
+                <button class="btn" onclick="irAsignatura('Python - Tema 3', 'submenu-python-t3')">Tema 3</button>
+                <button class="btn" onclick="irAsignatura('Python - Tema 4', 'submenu-python-t4')">Tema 4</button>
+                <button class="btn" onclick="irAsignatura('Python - Tema 5', 'submenu-python-t5')">Tema 5</button>
+                <button class="btn" onclick="irTest('Python - Tema 6')">Tema 6</button>
+                <button class="btn" onclick="irTest('Python - Tema 7')">Tema 7</button>
+                <button class="btn" onclick="irTest('Python - Tema 8')">Tema 8</button>
+                <button class="btn" onclick="irTest('Python - Tema 9')">Tema 9</button>
+                <button class="btn" onclick="irTest('Python - Tema 10')">Tema 10</button>
+                <button class="btn btn-examen" onclick="irTest('Python - Examen 1T')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irTest('Python - Examen 2T')">Examen 2T</button>
+            </div>
+
+                <!-- SUBMENÚS PYTHON: TEMAS 1 AL 5 -->
+                <div id="submenu-python-t1" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Python - Tema 1 Fácil')">Tema 1 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Python - Tema 1 Difícil')">Tema 1 Respuestas Variadas</button>
+                    <button class="btn btn-volver" onclick="irAsignatura('Programación en Python', 'tests-python')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-python-t2" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Python - Tema 2 Fácil')">Tema 2 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Python - Tema 2 Difícil')">Tema 2 Respuestas Variadas</button>
+                    <button class="btn btn-volver" onclick="irAsignatura('Programación en Python', 'tests-python')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-python-t3" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Python - Tema 3 Fácil')">Tema 3 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Python - Tema 3 Difícil')">Tema 3 Respuestas Variadas</button>
+                    <button class="btn btn-volver" onclick="irAsignatura('Programación en Python', 'tests-python')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-python-t4" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Python - Tema 4 Fácil')">Tema 4 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Python - Tema 4 Difícil')">Tema 4 Respuestas Variadas</button>
+                    <button class="btn btn-volver" onclick="irAsignatura('Programación en Python', 'tests-python')">⬅ Volver a Temas</button>
+                </div>
+                <div id="submenu-python-t5" class="grid-tests oculto">
+                    <button class="btn" onclick="irTest('Python - Tema 5 Fácil')">Tema 5 Fácil ... 😑</button>
+                    <button class="btn" onclick="irTest('Python - Tema 5 Difícil')">Tema 5 Respuestas Variadas</button>
+                    <button class="btn btn-volver" onclick="irAsignatura('Programación en Python', 'tests-python')">⬅ Volver a Temas</button>
+                </div>
+            
+            <!-- TESTS DE ENTORNO CLIENTE -->
+            <div id="tests-cliente" class="grid-tests oculto">
+                <button class="btn" onclick="irTest('Cliente - Tema 1')">Tema 1</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 2')">Tema 2</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 3')">Tema 3</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 4')">Tema 4</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 5')">Tema 5</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 6')">Tema 6</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 7')">Tema 7</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 8')">Tema 8</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 9')">Tema 9</button>
+                <button class="btn" onclick="irTest('Cliente - Tema 10')">Tema 10</button>
+                <button class="btn btn-examen" onclick="irTest('Cliente - Examen 1T')">Examen 1T</button>
+                <button class="btn btn-examen" onclick="irTest('Cliente - Examen 2T')">Examen 2T</button>
+            </div>
+
+            <button class="btn btn-volver" onclick="volverInicio()">⬅ Volver a Inicio</button>
+        </div>
+
+        <!-- PANTALLA 3: LAS PREGUNTAS -->
+        <div id="pantalla-test" class="oculto">
+            
+            <button class="btn btn-volver btn-volver-arriba" onclick="volverAsignatura()">⬅ Volver a los Tests</button>
+
+            <h2 id="titulo-test">Test</h2>
+            
+            <div id="contenedor-preguntas">
+            </div>
+
+            <button class="btn btn-volver" onclick="volverAsignatura()">⬅ Volver a los Tests</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
