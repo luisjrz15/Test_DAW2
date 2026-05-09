@@ -296,6 +296,486 @@ const baseDeDatosPreguntas = {
         { pregunta: "Choose the correct sentence:[cite: 5]", opciones: ["I have finished the task yesterday.[cite: 5]", "I have just finished the task.[cite: 5]", "I finished just the task.[cite: 5]", "I have just finish the task.[cite: 5]"], respuestaCorrecta: 1 },
         { pregunta: "Choose the sentence that best fits the context: \"The figures don't match. The report ___ be accurate.\"[cite: 5]", opciones: ["must.[cite: 5]", "may.[cite: 5]", "should.[cite: 5]", "can't.[cite: 5]"], respuestaCorrecta: 3 }
     ],
+    "Inglés - Simulacro 1": [
+        { parte: "Parte 1. Test", pregunta: "Our marketing assistant is ___ than our last one.", opciones: ["creative", "more creative", "creativest", "most creative"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "You ___ smoke in this area. It's prohibited.", opciones: ["shouldn't", "mustn't", "might not", "couldn't"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ often do you update the website?", opciones: ["Who", "How", "What", "Why"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "I think our team ___ win the competition.", opciones: ["is going to", "will", "was going to", "has"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The new policy is ___ clearly in the handbook.", opciones: ["explains", "explained", "explaining", "explain"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "There are only ___ chairs left in the conference room.", opciones: ["much", "a little", "a few", "many"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "If the supplier calls, I ___ you immediately.", opciones: ["tell", "told", "will tell", "am telling"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "We haven't finished the task ___.", opciones: ["already", "just", "yet", "since"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "While I ___ the monthly report, my colleague answered the phone.", opciones: ["wrote", "was writing", "had written", "write"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "There isn't ___ information in the email.", opciones: ["many", "a few", "much", "several"], respuestaCorrecta: 2 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'May I come in?', may is used to ask for permission politely.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I am sending the email now', the action is happening at the moment of speaking.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'This chair is more cheaper than that one' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'My brother, that lives in Seville, is a pilot' is a correct non-defining relative clause.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Look at those clouds. It will rain' is the best choice to describe a prediction based on present evidence.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "I have ever visited Dublin' is correct in standard affirmative English.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'In addition' is used to show contrast between two ideas.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'By the time I arrived, they had left' refers to an action completed before another past action.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'That was the badest option', the superlative form is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I left early to catch the bus', to catch expresses purpose.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Analyst: Not yet. We are still ___ the user data.", opciones: ["CHECKING", "CHECK", "CHECKED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Manager: Please upload the final file ___ 5 p.m. today.", opciones: ["BY", "SINCE", "FOR"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Designer: The slides are finished, but the video hasn't ___ exported yet.", opciones: ["BEING", "BE", "BEEN"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Manager: If the file ___ ready by 5 p.m., we will postpone the rehearsal.", opciones: ["WILL BE", "IS", "WAS"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Analyst: I can finish soon, ___ I still need the figures from Sales.", opciones: ["THEREFORE", "SO THAT", "BUT"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Manager: Fine. Please ___ up the previous version before you replace it.", opciones: ["TAKE", "BACK", "PICK"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Assistant: The intern ___ joined us last week can help with the notes.", opciones: ["WHICH", "WHOSE", "WHO"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Manager: Only ___ test users are available today, so keep the explanation simple.", opciones: ["A LITTLE", "A FEW", "MUCH"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Analyst: I'll share the meeting link ___ the group chat.", opciones: ["AT", "TO", "IN"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Chat)", pregunta: "Manager: Great. Let's all be ready to start ___.", opciones: ["IN TIME", "ON TIME", "BY TIME"], respuestaCorrecta: 1 }
+    ],
+"Inglés - Simulacro 2": [
+        { parte: "Parte 1. Test", pregunta: "At 8 p.m. last night, I ___ the final slides.", opciones: ["finished", "was finishing", "finish", "have finished"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The woman ___ interviewed me was very friendly.", opciones: ["which", "who", "whose", "where"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The printer ___ broken yesterday morning.", opciones: ["is", "was", "has been", "are"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "If I were the team leader, I ___ weekly meetings.", opciones: ["would hold", "held", "will hold", "had held"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "Please go ___ the street and turn right at the traffic lights.", opciones: ["across", "along", "under", "inside"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "There isn't ___ milk for everyone, so we need to buy more.", opciones: ["many", "much", "a few", "several"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ your company export products to Germany?", opciones: ["Do", "Does", "Did", "Is"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "Our reception team ___ visitors as soon as they arrive.", opciones: ["greet", "greets", "is greeting", "greeted"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "She usually ___ the minutes after every meeting.", opciones: ["write", "writes", "is writing", "wrote"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The meeting was cancelled ___ the director was ill.", opciones: ["because", "despite", "however", "in order to"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'You should to call the client' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'I am here since Monday' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'She has finished the report yesterday' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'If I were you, I would email the tutor', were is acceptable in formal English.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'He spoke so quietly that nobody heard him', so...that introduces result.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In 'She was studying when the lights went out', the interruption is in the past simple.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Who desk is near the door?' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Please look after my bag', look after means take care of.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Go past the supermarket', past gives directions.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We was checking the figures' is correct English.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "I am writing because the order that we received yesterday was ___.", opciones: ["DAMAGE", "DAMAGED", "DAMAGING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "Several boxes were wet ___ the heavy rain during transport.", opciones: ["BECAUSE", "BECAUSE OF", "ALTHOUGH"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "Our team ___ the goods when we noticed the problem.", opciones: ["INSPECTED", "WAS INSPECTING", "HAS INSPECTED"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "The labels have not ___ checked by your driver.", opciones: ["BE", "BEING", "BEEN"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "If you ___ replacement units today, we will avoid delays.", opciones: ["SEND", "SENT", "WILL SEND"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "We need the new items quickly ___ complete the customer order.", opciones: ["FOR", "TO", "ALTHOUGH"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "At the moment, only ___ products are still usable.", opciones: ["A LITTLE", "A FEW", "MUCH"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "Please confirm ___ is responsible for arranging the collection.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "We would also like a note ___ explains the cause of the incident.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Damaged delivery)", pregunta: "We hope to hear from you soon, ___ we can resolve this matter quickly.", opciones: ["SO THAT", "HOWEVER", "DUE TO"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 3": [
+        { parte: "Parte 1. Test", pregunta: "When the alarm rang, the staff ___ lunch in the break room.", opciones: ["had", "were having", "have had", "are having"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "This laptop is ___ than the old one.", opciones: ["more fast", "faster", "fastest", "the faster"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The package was sent express; ___ it arrived the next morning.", opciones: ["as a result", "although", "because of", "unless"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "The sales figures improved; ___ the director approved the new budget.", opciones: ["however", "therefore", "although", "unless"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The company has ___ expanded its online services.", opciones: ["already", "ago", "last", "for"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "We stayed inside ___ it was snowing heavily.", opciones: ["because", "although", "unless", "however"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "That was the ___ week of the whole project.", opciones: ["stressful", "more stressful", "most stressful", "stressfullest"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "This is the ___ solution we have found so far.", opciones: ["better", "best", "more good", "goodest"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "She ___ to the office yesterday because she was ill.", opciones: ["didn't go", "doesn't go", "hasn't gone", "wasn't go"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "This is one of the ___ offices in the building.", opciones: ["modern", "more modern", "most modern", "modernest"], respuestaCorrecta: 2 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She has worked here since 2023', since introduces a starting point in time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In 'While they were talking, the manager arrived', the longer background action is in the past continuous.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She is meeting the client tomorrow', the present continuous refers to a future arrangement.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In non-defining relative clauses, we usually use commas.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She works in Accounts', the verb form is present simple.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The staff are usually very helpful' uses the adverb of frequency in a natural position.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Usually I am checking emails at 9' is the best way to describe a routine.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Although he was tired, he went to the gym' expresses contrast.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'They have lived here for five years', for introduces a period of time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'This is the most efficient method', most is used correctly to form a superlative.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Chair: Before we begin, let's check ___ everyone has a copy of the agenda.", opciones: ["THAT", "WHAT", "WHO"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Marta: I ___ the sales figures this morning, and they look positive.", opciones: ["WAS REVIEWING", "HAVE REVIEW", "REVIEWED"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Chair: Good. The campaign, ___ starts next Monday, needs final approval today.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Luis: We should leave early ___ arrive at the client's office before nine.", opciones: ["BECAUSE", "ALTHOUGH", "TO"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Chair: Yes, and we must ___ up the presentation before the meeting.", opciones: ["TURN", "LOOK", "BACK"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Marta: If we ___ one more designer, the brochure would look much better.", opciones: ["HAVE", "HAD", "WILL HAVE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Luis: The draft was sent yesterday, ___ the client has not replied yet.", opciones: ["BECAUSE", "IN ADDITION", "HOWEVER"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Chair: Only ___ members of the team can attend the trade fair this year.", opciones: ["A LITTLE", "MUCH", "A FEW"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Marta: By the time we arrived last year, the keynote had already ___.", opciones: ["START", "STARTED", "BEEN START"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Reunión)", pregunta: "Chair: Fine. Let's meet again tomorrow at 8:30 and start ___.", opciones: ["ON TIME", "BY TIME", "IN THE TIME"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 4": [
+        { parte: "Parte 1. Test", pregunta: "Please call me back when you ___ the email.", opciones: ["receive", "will receive", "received", "have receiving"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "If she had left earlier, she ___ the train.", opciones: ["would catch", "would have caught", "caught", "had caught"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The training session ___ at 9:30 every Tuesday.", opciones: ["start", "starts", "is starting", "started"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The warehouse is ___ the bank and the café.", opciones: ["between", "behind", "through", "during"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "Please ___ off the lights before you leave the office.", opciones: ["take", "put", "turn", "bring"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "At the moment, the interns ___ a presentation for the meeting.", opciones: ["prepare", "prepares", "are preparing", "prepared"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "She is ___ late for class. She always arrives early.", opciones: ["always", "often", "never", "usually"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "We have ___ sent the revised invoice to the client.", opciones: ["yet", "just", "since", "ago"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "By the time the manager arrived, the assistants ___ the room.", opciones: ["prepare", "have prepared", "had prepared", "were preparing"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "If I ___ more free time, I would take an evening course.", opciones: ["have", "had", "will have", "would have"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I'll open the window', will usually shows a decision made at the moment of speaking.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'The company opened a new branch last year', the action is connected to the present through present perfect.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'The package was delivered on Monday', the verb is in the passive voice.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We were discussing the budget at 11 a.m.' describes an action in progress at a past time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Not only is he efficient, but he is also patient', also adds information.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The documents are being printed now' is a present continuous passive structure.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'because of the delay' is correct because because of is followed by a noun phrase.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'When I got home, my sister cooked dinner' clearly shows the earlier action with the best tense choice.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The invoice was send yesterday' is correct passive voice.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'There are a few tickets left', a few means a small number, but enough.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Employee: I need to change a booking because my manager is ___ to Paris next week.", opciones: ["FLY", "FLYING", "FLEW"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Travel agent: No problem. ___ day does she want to leave?", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Employee: She wants a morning flight ___ she can attend the afternoon meeting.", opciones: ["BECAUSE", "SO THAT", "HOWEVER"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Travel agent: I've found one seat, but there isn't ___ luggage space left.", opciones: ["MUCH", "MANY", "A FEW"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Employee: That's fine. She usually ___ with just one small suitcase.", opciones: ["TRAVEL", "TRAVELS", "IS TRAVELLING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Travel agent: The ticket can ___ emailed to you immediately.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Employee: Great. If the price ___ too high, I'll need to ask for approval first.", opciones: ["IS", "WAS", "WILL BE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Travel agent: This option is ___ than the direct flight with the other airline.", opciones: ["CHEAPER", "CHEAPEST", "MORE CHEAP"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Employee: Perfect. Please also tell me how to get ___ the airport to the hotel by train.", opciones: ["FROM", "DURING", "BETWEEN"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada telefónica)", pregunta: "Travel agent: Certainly. I'll send the itinerary now, and you can call me back ___ you need anything else.", opciones: ["IF", "BECAUSE", "ALTHOUGH"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 5": [
+        { parte: "Parte 1. Test", pregunta: "We need to leave early ___ catch the first train.", opciones: ["for", "to", "because", "although"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The employee ___ desk is near the window is our new accountant.", opciones: ["who", "which", "whose", "where"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "There was ___ noise in the corridor that we couldn't hear the speaker.", opciones: ["so much", "too many", "a few", "many"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "You ___ wear safety glasses in the lab. It's mandatory.", opciones: ["may", "must", "could", "might"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ is in charge of payroll in your company?", opciones: ["When", "Who", "Which", "Where"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "It was such ___ difficult meeting that we needed a break.", opciones: ["a", "an", "the", "some"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "The files ___ checked by the auditor next week.", opciones: ["are", "were", "will be", "have"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "How long ___ you worked in customer service?", opciones: ["have", "has", "did", "do"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "She ___ work from home on Fridays.", opciones: ["don't", "doesn't", "isn't", "wasn't"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "Look at those dark clouds. It ___ rain.", opciones: ["will", "is going to", "would", "has"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'He forgot the password. As a result, he couldn't log in', as a result introduces consequence.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She answered politely', politely is an adverb of manner.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'If I will see Anna, I will tell her' is a correct first conditional sentence.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Drive careful' is correct because careful is an adverb.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'He didn't went to the meeting' is correct because did already marks the past.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'He might be in a meeting', might expresses possibility.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Have you ever worked abroad?', ever is used correctly in a question about experience.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'You mustn't be late' expresses prohibition or strong negative obligation.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We left early so that we could avoid traffic' expresses purpose.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'He don't answer customer calls' is grammatically correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "Please arrive ___ 8:00 so that the move can begin early.", opciones: ["BY", "SINCE", "FOR"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "The old office must ___ emptied before the weekend.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "If you ___ any personal items on your desk, please take them home today.", opciones: ["HAVE", "HAD", "WILL HAVE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "The new space is ___ than the current one, so each team will have more room.", opciones: ["SPACIOUS", "MORE SPACIOUS", "MOST SPACIOUS"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "A facilities assistant ___ works on the ground floor will help you find your new desk.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "Go ___ the reception area, then turn left at the lift.", opciones: ["PAST", "DURING", "UNDER"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "Some computers are already installed; ___ the printers will be connected on Monday.", opciones: ["HOWEVER", "BECAUSE", "SO THAT"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "We have only ___ parking spaces available during the first week, so please share cars if possible.", opciones: ["A FEW", "A LITTLE", "MUCH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "The IT team was still ___ the network when I left yesterday.", opciones: ["TESTING", "TEST", "TESTED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Aviso)", pregunta: "Thank you for your cooperation and please ask reception ___ you need further information.", opciones: ["IF", "THAN", "AFTER"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 6": [
+        { parte: "Parte 1. Test", pregunta: "He speaks very ___ so everyone understands him.", opciones: ["slow", "slowly", "slower", "more slow"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "We are meeting the supplier tomorrow. This sentence expresses a ___ arrangement.", opciones: ["past", "fixed future", "hypothetical", "completed"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "I ___ answer the phone, don't worry. I heard it ring just now.", opciones: ["am going to", "will", "would", "have"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "We ___ in this building since January.", opciones: ["work", "worked", "have worked", "are working"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "The parcel ___ yesterday afternoon.", opciones: ["delivered", "was delivered", "has deliver", "was delivering"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "I couldn't log in because I ___ the wrong password.", opciones: ["used", "was using", "had used", "use"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "He was tired; ___ he finished the presentation.", opciones: ["although", "however", "because", "so that"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The report, ___ was on my desk this morning, has disappeared.", opciones: ["who", "which", "where", "whose"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ do you usually go for lunch, the café or the canteen?", opciones: ["Who", "Which", "Why", "How"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "Could you ___ up the document before sending it?", opciones: ["look", "back", "check", "take"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Whose laptop is this?', whose asks about possession.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'She called because of she was worried' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The phrasal verb in 'turn off the lights' means start the lights.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'This task is easier than the last one' contains a correct comparative adjective.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'There isn't many water in the bottle' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'If I had known, I would have called you' refers to an unreal past situation.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'How often do you travel for work?', how often asks about frequency.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The bank is opposite from the library' is the best standard option in the course context.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'If she would study more, she would pass' is correct second conditional.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We are going to launch the campaign next month' suggests a prior plan or intention.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "The first applicant has ___ worked in a logistics company, which is useful for us.", opciones: ["ALREADY", "AGO", "SINCE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "She speaks clearly and answers questions very ___.", opciones: ["CONFIDENT", "CONFIDENTLY", "MORE CONFIDENT"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "The second candidate arrived late, ___ he apologised immediately.", opciones: ["BUT", "DUE TO", "SO THAT"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "If he ___ more organised, he would probably manage deadlines better.", opciones: ["IS", "WERE", "WAS"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "The CV ___ by HR before the interview started.", opciones: ["CHECKED", "WAS CHECKED", "IS CHECK"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "Please prepare a question about ___ the candidate has solved problems in previous jobs.", opciones: ["HOW", "WHO", "WHICH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "There are ___ excellent candidates this time, so the final decision may be difficult.", opciones: ["A FEW", "A LITTLE", "MUCH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "The candidate ___ portfolio impressed the panel is waiting outside.", opciones: ["WHO", "WHOSE", "WHICH"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "We are meeting the final applicant at 12, so lunch will have to wait ___.", opciones: ["UNTIL", "ALREADY", "EVER"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Notas de preparación)", pregunta: "Let's begin the interviews ___ and keep to the schedule.", opciones: ["ON TIME", "BY TIME", "IN TIME"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 7": [
+        { parte: "Parte 1. Test", pregunta: "The parcel ___ yesterday afternoon.", opciones: ["delivered", "was delivered", "has deliver", "was delivering"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "He speaks very ___ so everyone understands him.", opciones: ["slow", "slowly", "slower", "more slow"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "We stayed inside ___ it was snowing heavily.", opciones: ["because", "although", "unless", "however"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "There isn't ___ information in the email.", opciones: ["many", "a few", "much", "several"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "He was tired; ___ he finished the presentation.", opciones: ["although", "however", "because", "so that"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "We are meeting the supplier tomorrow. This sentence expresses a ___ arrangement.", opciones: ["past", "fixed future", "hypothetical", "completed"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The employee ___ desk is near the window is our new accountant.", opciones: ["who", "which", "whose", "where"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "I ___ answer the phone, don't worry. I heard it ring just now.", opciones: ["am going to", "will", "would", "have"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "Our reception team ___ visitors as soon as they arrive.", opciones: ["greet", "greets", "is greeting", "greeted"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The printer ___ broken yesterday morning.", opciones: ["is", "was", "has been", "are"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'He didn't went to the meeting' is correct because did already marks the past.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'There are a few tickets left', a few means a small number, but enough.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'He don't answer customer calls' is grammatically correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In 'She was studying when the lights went out', the interruption is in the past simple.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'In addition' is used to show contrast between two ideas.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'I have ever visited Dublin' is correct in standard affirmative English.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We are going to launch the campaign next month' suggests a prior plan or intention.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In non-defining relative clauses, we usually use commas.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The staff are usually very helpful' uses the adverb of frequency in a natural position.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'She called because of she was worried' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "You ___ wear your ID badge and protective glasses at all times.", opciones: ["MUST", "MIGHT", "COULD"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "The emergency exits, ___ are marked in green, must never be blocked.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "If the alarm sounds, leave the building immediately and do not ___ back for personal items.", opciones: ["COME", "CAME", "COMING"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "Yesterday, one machine ___ because it had not been cleaned properly.", opciones: ["STOPPED", "WAS STOPPING", "HAS STOPPED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "The filters should be changed regularly ___ prevent overheating.", opciones: ["TO", "BECAUSE", "ALTHOUGH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "There is not ___ space near the main door, so keep boxes away from that area.", opciones: ["MUCH", "MANY", "A FEW"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "The instructions were explained slowly ___ everyone could understand them.", opciones: ["SO THAT", "HOWEVER", "DUE TO"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "Please ___ off all equipment when your shift ends.", opciones: ["TURN", "LOOK", "PUT"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "Any accident must ___ reported to the supervisor immediately.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Sesión informativa)", pregunta: "Thank you. If you have questions, you ___ ask me now.", opciones: ["MAY", "MUSTN'T", "WOULD"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 8": [
+        { parte: "Parte 1. Test", pregunta: "There was ___ noise in the corridor that we couldn't hear the speaker.", opciones: ["so much", "too many", "a few", "many"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "It was such ___ difficult meeting that we needed a break.", opciones: ["a", "an", "the", "some"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "The sales figures improved; ___ the director approved the new budget.", opciones: ["however", "therefore", "although", "unless"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "There are only ___ chairs left in the conference room.", opciones: ["much", "a little", "a few", "many"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "This is the ___ solution we have found so far.", opciones: ["better", "best", "more good", "goodest"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "Our marketing assistant is ___ than our last one.", opciones: ["creative", "more creative", "creativest", "most creative"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "Please ___ off the lights before you leave the office.", opciones: ["take", "put", "turn", "bring"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "We haven't finished the task ___.", opciones: ["already", "just", "yet", "since"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "___ often do you update the website?", opciones: ["Who", "How", "What", "Why"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "We have ___ sent the revised invoice to the client.", opciones: ["yet", "just", "since", "ago"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She has worked here since 2023', since introduces a starting point in time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I'll open the window', will usually shows a decision made at the moment of speaking.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The phrasal verb in 'turn off the lights' means start the lights.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'My brother, that lives in Seville, is a pilot' is a correct non-defining relative clause.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Drive careful' is correct because careful is an adverb.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Look at those clouds. It will rain' is the best choice to describe a prediction based on present evidence.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'How often do you travel for work?', how often asks about frequency.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She works in Accounts', the verb form is present simple.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Usually I am checking emails at 9' is the best way to describe a routine.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Not only is he efficient, but he is also patient', also adds information.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "The social media posts are ready, but the video is still ___.", opciones: ["EDITING", "EDIT", "BEING EDITED"], respuestaCorrecta: 2 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "Our new slogan is ___ than the one we used last year.", opciones: ["CATCHIER", "CATCHIEST", "MORE CATCHY"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "We have chosen it ___ it is short and easy to remember.", opciones: ["BECAUSE", "ALTHOUGH", "UNLESS"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "The designer, ___ works remotely from Valencia, will send the final banner tonight.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "If the client ___ any last-minute changes, we will update the draft tomorrow morning.", opciones: ["REQUESTS", "REQUESTED", "WILL REQUEST"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "Only ___ copies of the printed poster arrived this morning, so we still need more.", opciones: ["A FEW", "A LITTLE", "MUCH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "By the time the meeting started, the team had already ___ the budget.", opciones: ["DISCUSS", "DISCUSSED", "DISCUSSING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "Please ___ up all the image files before you send them to the printer.", opciones: ["BACK", "GIVE", "PICK"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "The campaign goes live at 9 a.m., so be ready to respond ___ customer comments immediately.", opciones: ["TO", "AT", "IN"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Actualización de proyecto)", pregunta: "I'm sure the launch ___ successful.", opciones: ["WILL BE", "IS GOING", "WAS"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 9": [
+        { parte: "Parte 1. Test", pregunta: "Please call me back when you ___ the email.", opciones: ["receive", "will receive", "received", "have receiving"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "I couldn't log in because I ___ the wrong password.", opciones: ["used", "was using", "had used", "use"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "She ___ work from home on Fridays.", opciones: ["don't", "doesn't", "isn't", "wasn't"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "This is one of the ___ offices in the building.", opciones: ["modern", "more modern", "most modern", "modernest"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "The woman ___ interviewed me was very friendly.", opciones: ["which", "who", "whose", "where"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "I think our team ___ win the competition.", opciones: ["is going to", "will", "was going to", "has"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "We need to leave early ___ catch the first train.", opciones: ["for", "to", "because", "although"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "By the time the manager arrived, the assistants ___ the room.", opciones: ["prepare", "have prepared", "had prepared", "were preparing"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "The meeting was cancelled ___ the director was ill.", opciones: ["because", "despite", "however", "in order to"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "That was the ___ week of the whole project.", opciones: ["stressful", "more stressful", "most stressful", "stressfullest"], respuestaCorrecta: 2 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Whose laptop is this?', whose asks about possession.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I am sending the email now', the action is happening at the moment of speaking.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We was checking the figures' is correct English.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Go past the supermarket', past gives directions.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'You should to call the client' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The invoice was send yesterday' is correct passive voice.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Although he was tired, he went to the gym' expresses contrast.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She answered politely', politely is an adverb of manner.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'If I were you, I would email the tutor', were is acceptable in formal English.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'May I come in?', may is used to ask for permission politely.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "The session ___ place in Room 4B tomorrow at 10:00.", opciones: ["TAKES", "IS TAKING", "TOOK"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "Please arrive a few minutes early ___ you can sign the attendance sheet.", opciones: ["SO THAT", "BECAUSE OF", "HOWEVER"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "The handouts have already ___ printed and placed on each desk.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "If you ___ your laptop, bring a pen and notebook instead.", opciones: ["DON'T HAVE", "HADN'T", "WON'T HAVE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "The trainer ___ is leading the session has worked with several international companies.", opciones: ["WHO", "WHICH", "WHOSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "At the last workshop, many participants were still ___ notes when the break started.", opciones: ["TAKING", "TAKE", "TAKEN"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "This course is one of the ___ modules in the programme.", opciones: ["MORE USEFUL", "MOST USEFUL", "USEFULER"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "There is only ___ time for questions at the end, so make notes as you listen.", opciones: ["A LITTLE", "A FEW", "MANY"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "Please switch your phone off ___ the presenter is speaking.", opciones: ["WHILE", "SINCE", "AFTER"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Recordatorio)", pregunta: "Contact HR ___ you need to cancel your place.", opciones: ["IF", "ALTHOUGH", "THAN"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 10": [
+        { parte: "Parte 1. Test", pregunta: "If she had left earlier, she ___ the train.", opciones: ["would catch", "would have caught", "caught", "had caught"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "You ___ wear safety glasses in the lab. It's mandatory.", opciones: ["may", "must", "could", "might"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The files ___ checked by the auditor next week.", opciones: ["are", "were", "will be", "have"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "She ___ to the office yesterday because she was ill.", opciones: ["didn't go", "doesn't go", "hasn't gone", "wasn't go"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "You ___ smoke in this area. It's prohibited.", opciones: ["shouldn't", "mustn't", "might not", "couldn't"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "She usually ___ the minutes after every meeting.", opciones: ["write", "writes", "is writing", "wrote"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The training session ___ at 9:30 every Tuesday.", opciones: ["start", "starts", "is starting", "started"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "Look at those dark clouds. It ___ rain.", opciones: ["will", "is going to", "would", "has"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "When the alarm rang, the staff ___ lunch in the break room.", opciones: ["had", "were having", "have had", "are having"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ is in charge of payroll in your company?", opciones: ["When", "Who", "Which", "Where"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She is meeting the client tomorrow', the present continuous refers to a future arrangement.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'That was the badest option', the superlative form is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'There isn't many water in the bottle' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'I am here since Monday' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Who desk is near the door?' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'This chair is more cheaper than that one' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'He might be in a meeting', might expresses possibility.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'The package was delivered on Monday', the verb is in the passive voice.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'The company opened a new branch last year', the action is connected to the present through present perfect.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'This is the most efficient method', most is used correctly to form a superlative.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "The lorry ___ at 06:30, but loading did not start until 07:15.", opciones: ["ARRIVED", "WAS ARRIVING", "HAS ARRIVED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "At that time, the warehouse team was still ___ the final order.", opciones: ["PREPARING", "PREPARE", "PREPARED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "The shipment was delayed ___ a problem with the barcode system.", opciones: ["BECAUSE OF", "ALTHOUGH", "IN ORDER TO"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "The software issue had not ___ reported in the previous shift notes.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "If the scanner ___ checked earlier, the problem might have been avoided.", opciones: ["IS", "HAD BEEN", "HAS BEEN"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "Only ___ workers were available in the loading area this morning.", opciones: ["A FEW", "A LITTLE", "MUCH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "The supervisor, ___ was informed at 07:20, called IT immediately.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "The new system is ___ reliable than the old one, so more training is needed.", opciones: ["LESS", "LITTLE", "LEAST"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "Please ___ down the exact time of each stage in future reports.", opciones: ["WRITE", "LOOK", "TURN"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Informe)", pregunta: "As a result, the customer received the order late and the driver arrived ___.", opciones: ["ON TIME", "LATE", "EARLY ALWAYS"], respuestaCorrecta: 1 }
+    ],
+    "Inglés - Simulacro 11": [
+        { parte: "Parte 1. Test", pregunta: "Please go ___ the street and turn right at the traffic lights.", opciones: ["across", "along", "under", "inside"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "If I were the team leader, I ___ weekly meetings.", opciones: ["would hold", "held", "will hold", "had held"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "___ your company export products to Germany?", opciones: ["Do", "Does", "Did", "Is"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "___ do you usually go for lunch, the café or the canteen?", opciones: ["Who", "Which", "Why", "How"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "At the moment, the interns ___ a presentation for the meeting.", opciones: ["prepare", "prepares", "are preparing", "prepared"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "There isn't ___ milk for everyone, so we need to buy more.", opciones: ["many", "much", "a few", "several"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "At 8 p.m. last night, I ___ the final slides.", opciones: ["finished", "was finishing", "finish", "have finished"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The company has ___ expanded its online services.", opciones: ["already", "ago", "last", "for"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "This laptop is ___ than the old one.", opciones: ["more fast", "faster", "fastest", "the faster"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The warehouse is ___ the bank and the café.", opciones: ["between", "behind", "through", "during"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The bank is opposite from the library' is the best standard option in the course context.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'because of the delay' is correct because because of is followed by a noun phrase.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'When I got home, my sister cooked dinner' clearly shows the earlier action with the best tense choice.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'If I will see Anna, I will tell her' is a correct first conditional sentence.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'If I had known, I would have called you' refers to an unreal past situation.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We left early so that we could avoid traffic' expresses purpose.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Please look after my bag', look after means take care of.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I left early to catch the bus', to catch expresses purpose.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'By the time I arrived, they had left' refers to an action completed before another past action.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In 'While they were talking, the manager arrived', the longer background action is in the past continuous.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "As discussed, I am sending you the documents ___ relate to the Orion Project.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "The final report was ___ yesterday and uploaded to the shared drive.", opciones: ["COMPLETE", "COMPLETED", "COMPLETING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "We have ___ met all the targets for this quarter.", opciones: ["YET", "ALREADY", "AGO"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "The client was pleased, ___ they asked for a shorter response time next month.", opciones: ["BUT", "BECAUSE", "SO THAT"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "If you ___ any figures, check the spreadsheet in folder B.", opciones: ["NEED", "NEEDED", "WILL NEED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "The account manager ___ you should contact first is Laura Méndez.", opciones: ["WHO", "WHOSE", "WHICH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "There are still ___ minor tasks to finish before Friday.", opciones: ["A FEW", "A LITTLE", "MUCH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "Please ___ up the contact list before you edit it.", opciones: ["BACK", "LOOK", "TAKE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "I am travelling tomorrow, so I probably ___ reply until the afternoon.", opciones: ["WON'T", "DON'T", "DIDN'T"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Email)", pregunta: "Thanks for your help. Let me know ___ anything is unclear.", opciones: ["IF", "THAN", "ALTHOUGH"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 12": [
+        { parte: "Parte 1. Test", pregunta: "The report, ___ was on my desk this morning, has disappeared.", opciones: ["who", "which", "where", "whose"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "How long ___ you worked in customer service?", opciones: ["have", "has", "did", "do"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "She is ___ late for class. She always arrives early.", opciones: ["always", "often", "never", "usually"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "Could you ___ up the document before sending it?", opciones: ["look", "back", "check", "take"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The package was sent express; ___ it arrived the next morning.", opciones: ["as a result", "although", "because of", "unless"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "If the supplier calls, I ___ you immediately.", opciones: ["tell", "told", "will tell", "am telling"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "While I ___ the monthly report, my colleague answered the phone.", opciones: ["wrote", "was writing", "had written", "write"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The new policy is ___ clearly in the handbook.", opciones: ["explains", "explained", "explaining", "explain"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "If I ___ more free time, I would take an evening course.", opciones: ["have", "had", "will have", "would have"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "We ___ in this building since January.", opciones: ["work", "worked", "have worked", "are working"], respuestaCorrecta: 2 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Have you ever worked abroad?', ever is used correctly in a question about experience.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We were discussing the budget at 11 a.m.' describes an action in progress at a past time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'He spoke so quietly that nobody heard him', so...that introduces result.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'If she would study more, she would pass' is correct second conditional.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'This task is easier than the last one' contains a correct comparative adjective.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The documents are being printed now' is a present continuous passive structure.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'They have lived here for five years', for introduces a period of time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'He forgot the password. As a result, he couldn't log in', as a result introduces consequence.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'You mustn't be late' expresses prohibition or strong negative obligation.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'She has finished the report yesterday' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "The stand design, ___ was approved last week, has now gone to print.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "We are going to leave on Sunday because the event ___ on Monday morning.", opciones: ["STARTS", "IS STARTING ALWAYS", "STARTED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "Please pack the brochures carefully ___ they do not get damaged.", opciones: ["SO THAT", "BECAUSE", "HOWEVER"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "The samples have already ___ packed in two large boxes.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "If the traffic ___ heavy, we may arrive later than planned.", opciones: ["IS", "WAS", "WILL BE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "There are only ___ hotel rooms left near the venue, so book today.", opciones: ["A FEW", "A LITTLE", "MUCH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "This exhibition is ___ than the local fair we attended in March.", opciones: ["BIGGER", "BIGGEST", "MORE BIG"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "Our sales manager can't come, so I will ___ over her client meetings.", opciones: ["TAKE", "TURN", "LOOK"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "By the time we reached the venue last year, the opening talk had already ___.", opciones: ["BEGIN", "BEGUN", "BEGINNING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Lista de verificación)", pregunta: "Remember to arrive ___ on the first day, because the doors open at 8:30.", opciones: ["ON TIME", "BY TIME", "IN THE TIME"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 13": [
+        { parte: "Parte 1. Test", pregunta: "We stayed inside ___ it was snowing heavily.", opciones: ["because", "although", "unless", "however"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "Look at those dark clouds. It ___ rain.", opciones: ["will", "is going to", "would", "has"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "If I were the team leader, I ___ weekly meetings.", opciones: ["would hold", "held", "will hold", "had held"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "She ___ to the office yesterday because she was ill.", opciones: ["didn't go", "doesn't go", "hasn't gone", "wasn't go"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "There isn't ___ information in the email.", opciones: ["many", "a few", "much", "several"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "How long ___ you worked in customer service?", opciones: ["have", "has", "did", "do"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "That was the ___ week of the whole project.", opciones: ["stressful", "more stressful", "most stressful", "stressfullest"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "I couldn't log in because I ___ the wrong password.", opciones: ["used", "was using", "had used", "use"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "The meeting was cancelled ___ the director was ill.", opciones: ["because", "despite", "however", "in order to"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "There are only ___ chairs left in the conference room.", opciones: ["much", "a little", "a few", "many"], respuestaCorrecta: 2 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I left early to catch the bus', to catch expresses purpose.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She has worked here since 2023', since introduces a starting point in time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'If I were you, I would email the tutor', were is acceptable in formal English.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'When I got home, my sister cooked dinner' clearly shows the earlier action with the best tense choice.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'My brother, that lives in Seville, is a pilot' is a correct non-defining relative clause.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'By the time I arrived, they had left' refers to an action completed before another past action.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The bank is opposite from the library' is the best standard option in the course context.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Have you ever worked abroad?', ever is used correctly in a question about experience.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'Whose laptop is this?', whose asks about possession.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'She has finished the report yesterday' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "The customer said the technician never ___ up after the first visit.", opciones: ["SHOWED", "SHOW", "SHOWING"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "She was upset ___ nobody had called her back.", opciones: ["BECAUSE", "ALTHOUGH", "IN ORDER TO"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "At 11 a.m., our support team was still ___ the ticket history.", opciones: ["CHECKING", "CHECK", "CHECKED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "The replacement part has not ___ delivered yet.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "If the part ___ tomorrow, we will arrange installation for Friday.", opciones: ["ARRIVES", "ARRIVED", "WILL ARRIVE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "The customer, ___ office is near the station, asked for a morning appointment.", opciones: ["WHO", "WHOSE", "WHICH"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "This case is ___ than the one we solved last week, because it involves two devices.", opciones: ["MORE COMPLEX", "MOST COMPLEX", "COMPLEXEST"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "There is very ___ time left before the warranty ends, so we must act quickly.", opciones: ["MUCH", "MANY", "A FEW"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "Please ___ down her preferred contact number in the CRM.", opciones: ["WRITE", "TURN", "PUT"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Llamada de cliente)", pregunta: "I'll call her again this afternoon ___ I receive confirmation from the technician.", opciones: ["IF", "WHEN", "ALTHOUGH"], respuestaCorrecta: 1 }
+    ],
+    "Inglés - Simulacro 14": [
+        { parte: "Parte 1. Test", pregunta: "The training session ___ at 9:30 every Tuesday.", opciones: ["start", "starts", "is starting", "started"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The report, ___ was on my desk this morning, has disappeared.", opciones: ["who", "which", "where", "whose"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "There isn't ___ milk for everyone, so we need to buy more.", opciones: ["many", "much", "a few", "several"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "I ___ answer the phone, don't worry. I heard it ring just now.", opciones: ["am going to", "will", "would", "have"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ do you usually go for lunch, the café or the canteen?", opciones: ["Who", "Which", "Why", "How"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "At the moment, the interns ___ a presentation for the meeting.", opciones: ["prepare", "prepares", "are preparing", "prepared"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "___ your company export products to Germany?", opciones: ["Do", "Does", "Did", "Is"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "Please call me back when you ___ the email.", opciones: ["receive", "will receive", "received", "have receiving"], respuestaCorrecta: 0 },
+        { parte: "Parte 1. Test", pregunta: "The sales figures improved; ___ the director approved the new budget.", opciones: ["however", "therefore", "although", "unless"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "At 8 p.m. last night, I ___ the final slides.", opciones: ["finished", "was finishing", "finish", "have finished"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'This is the most efficient method', most is used correctly to form a superlative.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Look at those clouds. It will rain' is the best choice to describe a prediction based on present evidence.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'That was the badest option', the superlative form is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She is meeting the client tomorrow', the present continuous refers to a future arrangement.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'May I come in?', may is used to ask for permission politely.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'She works in Accounts', the verb form is present simple.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'The company opened a new branch last year', the action is connected to the present through present perfect.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Usually I am checking emails at 9' is the best way to describe a routine.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I am sending the email now', the action is happening at the moment of speaking.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'I'll open the window', will usually shows a decision made at the moment of speaking.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Assistant: I ___ the figures this morning, and the travel costs are much higher.", opciones: ["CHECKED", "WAS CHECKING", "HAVE CHECK"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Finance manager: That is ___ the sales team attended three trade fairs this quarter.", opciones: ["BECAUSE", "HOWEVER", "SO THAT"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Assistant: The hotel expenses have already ___ approved by the director.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Finance manager: Good. If we ___ less on printing next month, we will balance the budget.", opciones: ["SPEND", "WILL SPEND"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Assistant: The report, ___ includes the updated forecast, is on your desk.", opciones: ["WHO", "WHICH", "WHERE"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Finance manager: We still have only ___ time, so let's focus on the biggest items.", opciones: ["A LITTLE", "A FEW", "MANY"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Assistant: The catering bill was ___ than expected because the venue raised its prices.", opciones: ["HIGHER", "HIGHEST", "MORE HIGH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Finance manager: Please ___ up all the receipts before the auditor arrives.", opciones: ["GIVE", "GATHER", "TURN"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Assistant: By the time she came yesterday, I had already ___ the first draft.", opciones: ["FINISH", "FINISHED", "FINISHING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Diálogo de finanzas)", pregunta: "Finance manager: Excellent. We are meeting the director at 4 p.m., so let's be ready ___", opciones: ["ON TIME", "IN TIME", "BY TIME"], respuestaCorrecta: 0 }
+    ],
+    "Inglés - Simulacro 15": [
+        { parte: "Parte 1. Test", pregunta: "The printer ___ broken yesterday morning.", opciones: ["is", "was", "has been", "are"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "By the time the manager arrived, the assistants ___ the room.", opciones: ["prepare", "have prepared", "had prepared", "were preparing"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "The files ___ checked by the auditor next week.", opciones: ["are", "were", "will be", "have"], respuestaCorrecta: 2 },
+        { parte: "Parte 1. Test", pregunta: "We need to leave early ___ catch the first train.", opciones: ["for", "to", "because", "although"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "If I ___ more free time, I would take an evening course.", opciones: ["have", "had", "will have", "would have"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ is in charge of payroll in your company?", opciones: ["When", "Who", "Which", "Where"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "The parcel ___ yesterday afternoon.", opciones: ["delivered", "was delivered", "has deliver", "was delivering"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "Our marketing assistant is ___ than our last one.", opciones: ["creative", "more creative", "creativest", "most creative"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "If she had left earlier, she ___ the train.", opciones: ["would catch", "would have caught", "caught", "had caught"], respuestaCorrecta: 1 },
+        { parte: "Parte 1. Test", pregunta: "___ often do you update the website?", opciones: ["Who", "How", "What", "Why"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'Although he was tired, he went to the gym' expresses contrast.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'We left early so that we could avoid traffic' expresses purpose.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'They have lived here for five years', for introduces a period of time.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'This chair is more cheaper than that one' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'There isn't many water in the bottle' is correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "In the sentence 'There are a few tickets left', a few means a small number, but enough.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'You mustn't be late' expresses prohibition or strong negative obligation.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "In non-defining relative clauses, we usually use commas.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'He don't answer customer calls' is grammatically correct.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 1 },
+        { parte: "Parte 2. True or False", pregunta: "The sentence 'The staff are usually very helpful' uses the adverb of frequency in a natural position.", opciones: ["TRUE", "FALSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "The user reported that she ___ unable to access the system yesterday.", opciones: ["WAS", "IS", "HAS"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "At the time of the incident, she was ___ to upload an invoice.", opciones: ["TRYING", "TRY", "TRIED"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "The error happened ___ the password had expired.", opciones: ["BECAUSE", "BECAUSE OF", "ALTHOUGH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "The account has now ___ reset by the administrator.", opciones: ["BE", "BEEN", "BEING"], respuestaCorrecta: 1 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "If the issue ___ again, please contact the help desk immediately.", opciones: ["HAPPENS", "HAPPENED", "WILL HAPPEN"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "The technician ___ solved the case this morning will send a follow-up email.", opciones: ["WHO", "WHICH", "WHOSE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "This problem is ___ common than it was last year because the system is more stable now.", opciones: ["LESS", "LEAST", "LITTLE"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "There are still ___ users waiting for password resets, so the queue is longer than usual.", opciones: ["A FEW", "A LITTLE", "MUCH"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "Please ___ in again after ten minutes and tell us if the problem continues.", opciones: ["LOG", "TURN", "LOOK"], respuestaCorrecta: 0 },
+        { parte: "Parte 3. Caso práctico (Ticket de soporte)", pregunta: "We hope everything will work normally ___.", opciones: ["SOON", "SOONLY", "MORE SOON"], respuestaCorrecta: 0 }
+    ],
 
 // ITINERARIO PARA LA EMPLEABILIDAD II
     "Empleabilidad - Tema 1 Fácil": [
@@ -1846,39 +2326,67 @@ function irTest(nombreTest) {
     const contenedor = document.getElementById('contenedor-preguntas');
     contenedor.innerHTML = '';
 
-    const preguntas = baseDeDatosPreguntas[nombreTest];
+    const preguntasOriginales = baseDeDatosPreguntas[nombreTest];
 
-    if (!preguntas || preguntas.length === 0) {
+    if (!preguntasOriginales || preguntasOriginales.length === 0) {
         contenedor.innerHTML = '<p class="aviso">No hay preguntas cargadas para este test todavía.</p>';
         return;
     }
 
+    let grupos = {};
+    let ordenDePartes = []; 
+
+    preguntasOriginales.forEach(p => {
+        const nombreParte = p.parte || 'General';
+        if (!grupos[nombreParte]) {
+            grupos[nombreParte] = [];
+            ordenDePartes.push(nombreParte);
+        }
+        grupos[nombreParte].push(p);
+    });
+
+    preguntasDelTestActivo = []; 
+    
     const letras = ['a', 'b', 'c', 'd', 'e', 'f'];
     let html = '';
+    let contadorGlobal = 0;
 
-    preguntas.forEach((p, index) => {
-        let preguntaLimpia = p.pregunta.split('[cite')[0].trim();
-        preguntaLimpia = preguntaLimpia.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    ordenDePartes.forEach(nombreParte => {
+        if (nombreParte !== 'General') {
+            html += `<h3 class="test-subtitulo">${nombreParte}</h3>`;
+        }
 
-        html += `<div class="bloque-pregunta" id="bloque-p${index}">`;
-        html += `<p><strong>${index + 1}. ${preguntaLimpia}</strong></p>`;
+        let listaGrupo = grupos[nombreParte];
 
-        p.opciones.forEach((opcion, i) => {
-            let opcionLimpia = opcion.split('[cite')[0].trim();
-            opcionLimpia = opcionLimpia.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            const letra = letras[i] || '';
+        listaGrupo.forEach((p) => {
+            preguntasDelTestActivo.push(p);
 
-            html += `<label style="display:block; margin-bottom:5px; cursor:pointer; font-weight:normal;">
-                        <input type="radio" name="pregunta${index}" value="${i}"> ${letra}) ${opcionLimpia}
-                     </label>`;
+            let preguntaLimpia = p.pregunta.split('[cite')[0].trim();
+            preguntaLimpia = preguntaLimpia.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+            html += `<div class="bloque-pregunta" id="bloque-p${contadorGlobal}">`;
+            html += `<p><strong>${contadorGlobal + 1}. ${preguntaLimpia}</strong></p>`;
+
+            p.opciones.forEach((opcion, i) => {
+                let opcionLimpia = opcion.split('[cite')[0].trim();
+                opcionLimpia = opcionLimpia.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                const letra = letras[i] || '';
+
+                html += `<label style="display:block; margin-bottom:5px; cursor:pointer; font-weight:normal;">
+                            <input type="radio" name="pregunta${contadorGlobal}" value="${i}"> ${letra}) ${opcionLimpia}
+                         </label>`;
+            });
+            html += `</div>`;
+            contadorGlobal++;
         });
-        html += `</div>`;
     });
 
     html += `<button class="btn btn-principal" onclick="corregirTest('${nombreTest}')">✅ Corregir Test</button>`;
     html += `<div id="resultado-test" style="margin-top: 20px; font-weight: bold; font-size: 18px;"></div>`;
 
     contenedor.innerHTML = html;
+
+    history.pushState({ vista: 'test' }, '');
 }
 
 function corregirTest(nombreTest) {

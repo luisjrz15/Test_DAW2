@@ -116,6 +116,14 @@ h1, h2 {
     background-color: #2ecc71;
 }
 
+.btn-ingless {
+    background-color: #2E7D32;
+    color: white;
+}
+.btn-ingless:hover {
+    background-color: #1b5e20;
+}
+
 .btn-empleabilidad {
     background-color: #3498db;
     color: white;
@@ -177,6 +185,16 @@ h1, h2 {
 }
 .btn-cliente:hover {
     background-color: #27ae60;
+}
+
+.test-subtitulo {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 25px 0 15px 0;
+    font-size: 20px;
+    border-left: 5px solid #1976d2;
 }
 
 /* CLASE PARA OCULTAR PANTALLAS */
