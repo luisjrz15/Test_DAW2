@@ -1064,6 +1064,89 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué permite la analítica avanzada?[cite: 7]", opciones: ["Decorar las oficinas.[cite: 7]", "Tomar decisiones basadas en datos reales.[cite: 7]", "Reemplazar todos los empleados.[cite: 7]", "Hacer copias de seguridad únicamente.[cite: 7]"], respuestaCorrecta: 1 },
         { pregunta: "¿Qué es el deep learning?[cite: 7]", opciones: ["Aprender solo manualmente.[cite: 7]", "Solo usar gráficos.[cite: 7]", "Aprender a partir de grandes cantidades de datos y redes neuronales profundas.[cite: 7]", "Revisión de correo electrónico.[cite: 7]"], respuestaCorrecta: 2 }
     ],
+    "Digitalización - Parte 1": [
+        { pregunta: "En el contexto de Smart Cities, ¿qué papel juega el loT?", opciones: ["Reducir el número de ciudadanos", "Eliminar las redes de transporte", "Optimizar servicios como el tráfico o alumbrado", "Prohibir el uso de smartphones"], respuestaCorrecta: 2 },
+        { pregunta: "¿Qué es un ataque de 'phishing'?", opciones: ["Una técnica de minado de criptomonedas", "Un fallo en la conexión Wi-Fi", "Un intento de engañar para obtener datos sensibles", "Un virus que borra fotos"], respuestaCorrecta: 2 },
+        { pregunta: "¿Cómo acelerar el lanzamiento de nuevos productos?", opciones: ["Reduciendo el equipo de diseño", "Evitando las pruebas de calidad", "Haciendo más lenta la fabricación", "Mediante prototipado digital y análisis de mercado rápido"], respuestaCorrecta: 3 },
+        { pregunta: "Si no tenemos datos etiquetados, ¿qué aprendizaje automático usamos?", opciones: ["Aprendizaje no supervisado", "Aprendizaje memorístico", "Aprendizaje supervisado", "Ninguno"], respuestaCorrecta: 0 },
+        { pregunta: "La sostenibilidad en la nube se relaciona con:", opciones: ["Reducción de huella de carbono", "Mayor consumo energético", "Más servidores locales", "Menor eficiencia"], respuestaCorrecta: 0 },
+        { pregunta: "¿Quién es responsable de la seguridad de la infraestructura en nube pública?", opciones: ["El proveedor del servicio (ej. AWS, Google, Azure)", "La compañía eléctrica", "El cliente", "Nadie"], respuestaCorrecta: 0 },
+        { pregunta: "¿De qué manera ayuda la transformación digital a la optimización de costes?", opciones: ["Reduciendo ineficiencias mediante el análisis de procesos", "Evitando el uso de la nube", "Aumentando el gasto en papel", "Contratando más personal administrativo"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué es el 'Green Computing'?", opciones: ["Usar ordenadores viejos", "No usar tecnología", "Pintar los ordenadores de verde", "Prácticas de computación ambientalmente responsables"], respuestaCorrecta: 3 },
+        { pregunta: "¿Cuál es la función principal de los sensores en un ecosistema loT?", opciones: ["Capturar datos del entorno físico", "Eliminar la necesidad de internet", "Sustituir a los servidores Cloud", "Almacenar energía"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué objetivo busca la IA al analizar grandes volúmenes de datos históricos?", opciones: ["Borrar los datos antiguos", "Identificar patrones y realizar predicciones", "Reducir la capacidad de almacenamiento", "Aumentar el ruido en los datos"], respuestaCorrecta: 1 },
+        { pregunta: "¿Cómo utiliza el retail el análisis predictivo?", opciones: ["Para limpiar el suelo", "Para cambiar el logo", "Para contratar cajeros", "Para anticipar qué productos se venderán más y gestionar stock"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué importancia tiene la baja latencia en servicios en la nube?", opciones: ["Ahorra espacio en disco", "Aumenta el retraso en la respuesta", "No tiene importancia", "Mejora la fluidez y rapidez del acceso a datos"], respuestaCorrecta: 3 },
+        { pregunta: "Una ventaja estratégica de la digitalización es:", opciones: ["Más costes fijos", "Menor competitividad", "Mayor adaptación al mercado", "Mayor rigidez"], respuestaCorrecta: 2 },
+        { pregunta: "La IA generativa se caracteriza por:", opciones: ["Crear textos, imágenes o música", "Solo clasificar datos", "Solo almacenar información", "Solo analizar sensores"], respuestaCorrecta: 0 },
+        { pregunta: "¿Cómo facilita la nube el trabajo colaborativo?", opciones: ["Obligando a usar cables largos", "Limitando el horario de acceso", "Impidiendo el acceso simultáneo", "Permitiendo editar documentos en tiempo real desde distintos sitios"], respuestaCorrecta: 3 },
+        { pregunta: "El Big Data se caracteriza por las 3 Vs:", opciones: ["Velocidad, Ventana, Vista", "Ventaja, Valor, Venta", "Volumen, Velocidad, Variedad", "Visión, Verdad, Valor"], respuestaCorrecta: 2 },
+        { pregunta: "El Internet de las Cosas (IoT) permite:", opciones: ["Conexión de objetos cotidianos a Internet", "Eliminar el uso de sensores", "Solo conexión de PCs", "Uso exclusivo industrial"], respuestaCorrecta: 0 },
+        { pregunta: "¿Puede el análisis predictivo prevenir la fuga de clientes?", opciones: ["Sí, identificando señales de abandono antes de que ocurra", "Solo si el cliente lo dice", "No, es imposible", "Solo en empresas pequeñas"], respuestaCorrecta: 0 }
+    ],
+
+    "Digitalización - Parte 2": [
+        { pregunta: "Una ventaja de la convergencia IT/OT es:", opciones: ["Aislamiento de datos", "Menor análisis", "Mayor detección anticipada de incidencias", "Menor innovación"], respuestaCorrecta: 2 },
+        { pregunta: "¿Cuál es el beneficio de integrar un CRM con el departamento de ventas?", opciones: ["Tener una visión 360° del embudo de ventas", "Complicar el cierre de tratos", "Sustituir a los comerciales", "Reducir el uso del correo electrónico"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué diferencia a la minería de datos de la estadística descriptiva?", opciones: ["No hay diferencia", "La minería solo usa papel", "La estadística es más moderna", "La minería se enfoca en descubrir relaciones y predecir"], respuestaCorrecta: 3 },
+        { pregunta: "¿Cómo reduce la IA el tiempo de inactividad?", opciones: ["Parando la fábrica a diario", "Avisando cuando la máquina ya se ha roto", "Obligando a trabajar más horas", "Prediciendo el fallo antes de que ocurra"], respuestaCorrecta: 3 },
+        { pregunta: "¿Cómo se asegura la integridad de los datos en un entorno de Big Data?", opciones: ["Mediante procesos de limpieza y validación (Data Cleansing)", "Aumentando el volumen de datos", "Apagando los servidores a diario", "Haciendo fotos a la pantalla"], respuestaCorrecta: 0 },
+        { pregunta: "¿Por qué la digitalización es un proceso continuo?", opciones: ["Porque la tecnología y el mercado evolucionan constantemente", "Porque los ordenadores se rompen", "Porque es una moda", "Porque nunca se termina de pagar"], respuestaCorrecta: 0 },
+        { pregunta: "¿Cómo mejora la visibilidad de la cadena de producción la convergencia IT/OT?", opciones: ["Escondiendo los fallos", "Eliminando el acceso remoto", "Reduciendo el número de sensores", "Proporcionando datos en tiempo real de lo que ocurre en planta"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué ventaja ofrece la escalabilidad en los servicios de Cloud Computing?", opciones: ["Reducir la velocidad de red", "Ajustar recursos según la demanda", "Limitar el acceso a un solo usuario", "Forzar la compra de hardware nuevo"], respuestaCorrecta: 1 },
+        { pregunta: "El Cloud Computing ofrece principalmente:", opciones: ["Menor seguridad que un servidor físico", "Uso restringido a expertos", "Almacenamiento físico local", "Acceso a recursos bajo demanda vía red"], respuestaCorrecta: 3 },
+        { pregunta: "¿Cuál es la relación entre minería de datos y patrones ocultos?", opciones: ["La minería borra los patrones", "La minería busca extraer esos patrones de grandes datasets", "La minería oculta los patrones", "No tienen relación"], respuestaCorrecta: 1 },
+        { pregunta: "¿Por qué la 'Variedad' es un desafío para los sistemas tradicionales?", opciones: ["Porque requiere pantallas de colores", "Porque los datos son todos iguales", "Porque solo aceptan un tipo de letra", "Debido a la mezcla de datos estructurados y no estructurados"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué importancia tiene el histórico de datos en modelos predictivos?", opciones: ["Es la base para entrenar el modelo y detectar tendencias", "Ninguna", "Es para el archivo histórico", "Sirve para ocupar espacio"], respuestaCorrecta: 0 },
+        { pregunta: "El análisis predictivo sirve para:", opciones: ["Anticipar fallos o comportamientos", "Eliminar datos", "Mirar solo el pasado", "Sustituir sensores"], respuestaCorrecta: 0 },
+        { pregunta: "El aprendizaje no supervisado se basa en:", opciones: ["Solo reglas fijas", "Etiquetas conocidas", "Resultados esperados", "Detección autónoma de patrones"], respuestaCorrecta: 3 },
+        { pregunta: "¿Cómo ayuda el modelo de 'pago por uso' en la nube a las PYMES?", opciones: ["Aumenta los costes de mantenimiento", "Obliga a pagar anualidades fijas", "Permite acceder a tecnología avanzada sin grandes inversiones", "Requiere tener servidores propios"], respuestaCorrecta: 2 },
+        { pregunta: "¿Qué tecnología permite que una fábrica monitorice sus máquinas en tiempo real?", opciones: ["Manuales de usuario físicos", "Impresión offset", "Sistemas ERP de escritorio", "Sensores conectados mediante loT"], respuestaCorrecta: 3 },
+        { pregunta: "¿En qué consiste el procesamiento de lenguaje natural (PLN) dentro de la IA?", opciones: ["En el diseño de teclados ergonómicos", "En traducir código binario", "En la velocidad de escritura", "En la interacción entre máquinas y lenguaje humano"], respuestaCorrecta: 3 },
+        { pregunta: "¿Para qué se utiliza el 'clustering'?", opciones: ["Para multiplicar números", "Para ordenar por fecha", "Para borrar datos", "Para agrupar elementos similares sin etiquetas previas"], respuestaCorrecta: 3 }
+    ],
+
+    "Digitalización - Parte 3": [
+        { pregunta: "¿Cómo influye la digitalización en la reducción de tiempos de respuesta?", opciones: ["Obligando al uso de fax", "Automatizando procesos y flujos de trabajo", "Aumentando la burocracia", "Aumentando el número de reuniones"], respuestaCorrecta: 1 },
+        { pregunta: "¿Cuál es el primer paso en un ciclo de vida de un proyecto de Data Science?", opciones: ["Crear gráficos circulares", "Comprensión del problema de negocio", "Borrar la base de datos", "Comprar el software más caro"], respuestaCorrecta: 1 },
+        { pregunta: "¿Qué capacidad define a un sistema de Inteligencia Artificial frente a un software convencional?", opciones: ["La necesidad de una pantalla táctil", "El uso de cables de fibra óptica", "La capacidad de aprender y mejorar con la experiencia", "La capacidad de realizar cálculos básicos"], respuestaCorrecta: 2 },
+        { pregunta: "¿Qué diferencia al mantenimiento preventivo del predictivo?", opciones: ["El preventivo es más caro", "El preventivo es por tiempo/uso; el predictivo es por estado real", "No hay diferencia", "El predictivo no usa datos"], respuestaCorrecta: 1 },
+        { pregunta: "Un objetivo de la minería de datos es:", opciones: ["Eliminar algoritmos", "Predecir comportamientos", "Crear copias de seguridad", "Reducir almacenamiento"], respuestaCorrecta: 1 },
+        { pregunta: "¿Qué significa que los sistemas IT se integren con OT?", opciones: ["Que la informática de gestión se conecta con el control de maquinaria", "Que se vuelve al control manual", "Que se fusionan los departamentos de RRHH", "Que se eliminan los ordenadores"], respuestaCorrecta: 0 },
+        { pregunta: "Un sistema CRM sirve para:", opciones: ["Enviar spam", "Crear páginas web", "Limpiar el disco duro", "Gestionar la relación con los clientes"], respuestaCorrecta: 3 },
+        { pregunta: "Si hablamos de Terabytes y Petabytes, ¿a qué 'V' del Big Data nos referimos?", opciones: ["Veracidad", "Variedad", "Volumen", "Velocidad"], respuestaCorrecta: 2 },
+        { pregunta: "La Inteligencia Artificial (IA) se define como:", opciones: ["Sistemas que simulan procesos de inteligencia humana", "Un nuevo tipo de hardware", "Conexión de cables", "Un software de edición de fotos"], respuestaCorrecta: 0 },
+        { pregunta: "¿Cómo ayuda el análisis en tiempo real?", opciones: ["Para ver qué pasó hace un año", "Para retrasar la respuesta", "Para reaccionar inmediatamente ante cambios o problemas", "No ayuda"], respuestaCorrecta: 2 },
+        { pregunta: "En Big Data, ¿qué significa que un dato sea consistente?", opciones: ["Que ocupa mucho espacio", "Que es un dato numérico", "Que es difícil de borrar", "Que es igual en todos los sistemas donde se encuentra"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué es una cultura 'data-driven'?", opciones: ["Una cultura de solo usar hojas de cálculo", "Una cultura de no usar datos", "Una cultura donde los datos guían las decisiones", "Una cultura de diseño gráfico"], respuestaCorrecta: 2 },
+        { pregunta: "La veracidad en big data se refiere a:", opciones: ["Cantidad de datos", "Velocidad de red", "Calidad y fiabilidad de los datos", "Tamaño de archivos"], respuestaCorrecta: 2 },
+        { pregunta: "Una ventaja del big data es:", opciones: ["Menor volumen", "Eliminar análisis", "Mejor toma de decisiones", "Menor variedad"], respuestaCorrecta: 2 },
+        { pregunta: "La IA en el sector industrial permite:", opciones: ["Eliminar mantenimiento", "Menor calidad", "Mantenimiento predictivo", "Solo control manual"], respuestaCorrecta: 2 },
+        { pregunta: "¿A qué se refiere la 'Velocidad' en el contexto de procesamiento de Big Data?", opciones: ["Al tiempo que tarda en encenderse el servidor", "A la frecuencia con la que se generan y procesan los datos", "A la rapidez del personal de IT", "A la velocidad del cursor en pantalla"], respuestaCorrecta: 1 },
+        { pregunta: "La ciencia de datos busca principalmente:", opciones: ["Eliminar datos antiguos", "Convertir datos en conocimiento útil", "Reducir conectividad", "Guardar información"], respuestaCorrecta: 1 },
+        { pregunta: "¿Qué tipo de datos centraliza un sistema CRM en una empresa?", opciones: ["Inventario de suministros de oficina", "Planos de las instalaciones", "Interacciones, pedidos y preferencias del cliente", "Nóminas de empleados"], respuestaCorrecta: 2 }
+    ],
+
+    "Digitalización - Parte 4": [
+        { pregunta: "¿Cómo transforma el Big Data la intuición en decisiones basadas en hechos?", opciones: ["Aportando evidencia objetiva extraída de los datos", "Sustituyendo a los jefes", "Confirmando lo que el jefe ya pensaba", "Haciendo las decisiones más lentas"], respuestaCorrecta: 0 },
+        { pregunta: "¿Por qué mudar servidores a la nube puede reducir el consumo?", opciones: ["Porque los servidores son más pequeñas", "Porque se apagan por la noche", "Porque la nube no gasta luz", "Por la mayor eficiencia de los centros de datos especializados"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué diferencia hay entre un analista de datos y un científico de datos?", opciones: ["No hay diferencia", "El científico solo trabaja en laboratorios", "El científico suele crear modelos predictivos complejos", "El analista solo usa papel y lápiz"], respuestaCorrecta: 2 },
+        { pregunta: "La ciberseguridad en la empresa busca:", opciones: ["Ralentizar el trabajo", "Publicar datos en la web", "Eliminar internet", "Proteger la integridad y privacidad de los datos"], respuestaCorrecta: 3 },
+        { pregunta: "La digitalización fomenta principalmente:", opciones: ["Innovación continua", "Procesos manuales", "Menor conetividad", "Aislamiento tecnológico"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué herramientas son comunes para la visualización de datos?", opciones: ["Adobe Premiere", "Microsoft Paint", "Tableau, Power BI o librerías de Python", "Calculadoras científicas"], respuestaCorrecta: 2 },
+        { pregunta: "¿Qué problemas puede causar el uso de datos 'sucios' en una empresa?", opciones: ["Toma de decisiones erróneas basadas en información falsa", "Mejorar el marketing", "Aumento de la velocidad de red", "Reducción del consumo eléctrico"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué papel juegan las actualizaciones de software en la ciberseguridad?", opciones: ["Gastar batería innecesariamente", "Borrar archivos temporales", "Cambiar los colores de la interfaz", "Corregir vulnerabilidades de seguridad"], respuestaCorrecta: 3 },
+        { pregunta: "¿Por qué la movilidad es una gran ventaja del Cloud?", opciones: ["Porque los servidores se mueven en camiones", "Porque permite trabajar desde cualquier dispositivo con internet", "Porque no requiere batería", "Porque las pantallas son más pequeñas"], respuestaCorrecta: 1 },
+        { pregunta: "El acceso amplio a la red en cloud permite:", opciones: ["Sin conexión", "Acceso desde múltiples dispositivos", "Acceso solo desde servidores", "Acceso solo local"], respuestaCorrecta: 1 },
+        { pregunta: "¿Qué diferencia al almacenamiento en la nube del almacenamiento local tradicional?", opciones: ["El Cloud permite acceso remoto y alta disponibilidad", "No hay diferencia técnica", "El Cloud no usa discos físicos", "El almacenamiento local es accesible desde cualquier lugar"], respuestaCorrecta: 0 },
+        { pregunta: "¿Cómo ayuda el aprendizaje no supervisado a descubrir segmentos de clientes?", opciones: ["Encontrando patrones ocultos de comportamiento en los datos", "Enviando encuestas", "Preguntando uno a uno", "Llamando por teléfono"], respuestaCorrecta: 0 },
+        { pregunta: "¿Cómo ayuda un CRM a mejorar la fidelización de los clientes?", opciones: ["Mediante el envío masivo de publicidad", "Eliminando el soporte técnico telefónico", "Aumentando los precios de forma automática", "Personalizando la atención según el historial del cliente"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué diferencia a la nube pública de una híbrida?", opciones: ["La híbrida combina recursos propios con nube pública", "La pública es gratis", "No hay diferencia", "La pública no tiene seguridad"], respuestaCorrecta: 0 },
+        { pregunta: "¿Cuál es la importancia de la encriptación en la transmisión de datos?", opciones: ["Acelerar la descarga de archivos", "Hacer que los datos ocupen más espacio", "Garantizar que solo el receptor autorizado pueda leerlos", "Mejorar la resolución de las imágenes"], respuestaCorrecta: 2 },
+        { pregunta: "La nube pública se caracteriza por:", opciones: ["Uso exclusivo", "Mayor coste siempre", "Control total interno", "Recursos compartidos"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué papel juega el 'feedback' digital del cliente?", opciones: ["No tiene utilidad", "Molestar a los empleados", "Permitir una mejora constante del producto basada en el uso real", "Es para borrarlo"], respuestaCorrecta: 2 },
+        { pregunta: "¿Cómo contribuye el uso compartido de servidores a la eficiencia?", opciones: ["No influye", "Maximizando el uso del hardware y reduciendo el desperdicio energético", "Aumentando el número de máquinas encendidas", "Calentando más los edificios"], respuestaCorrecta: 1 }
+    ],
 
 // SOSTENIBILIDAD APLICADA
     "Sostenibilidad - Tema 1": [
@@ -1531,7 +1614,7 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué comando se utiliza para ver el historial de commits en Git?", opciones: ["git show", "git push", "git log", "git Branch"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué puerto se utiliza por defecto en GitHub Actions para ejecutar runners en Linux?", opciones: ["3000.", "22.", "5000.", "No depende de un puerto específico."], respuestaCorrecta: 3 }
     ],
-    "Despliegue - Practicando los test": [
+"Despliegue - Parte 1": [
         { pregunta: "¿Qué comando cambia de directorio?", opciones: ["cp", "cd", "mv", "pwd"], respuestaCorrecta: 1 },
         { pregunta: "¿Cuál de las siguientes capas se encarga de mostrar la interfaz de usuario y recoger la interacción del usuario?", opciones: ["Capa de lógica de negocio", "Capa de infraestructura", "Capa de presentación", "Capa de acceso a datos"], respuestaCorrecta: 2 },
         { pregunta: "¿Cuál de los siguientes registros DNS permite asociar un dominio a una dirección IP?", opciones: ["Registro MX", "Registro A", "Registro CNAME", "Registro PTR"], respuestaCorrecta: 1 },
@@ -1551,7 +1634,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué comando elimina un contenedor Docker?", opciones: ["docker delete", "docker remove-container", "docker rm", "docker erase"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué puerto utiliza SSH?", opciones: ["25", "22", "80", "21"], respuestaCorrecta: 1 },
         { pregunta: "¿En qué carpeta se encuentran los Virtual Host disponibles en Apache?", opciones: ["/etc/apache2/mods-enabled", "/usr/apache/sites", "/etc/apache2/sites-available", "/var/www/html"], respuestaCorrecta: 2 },
-        { pregunta: "¿Qué directiva indica la carpeta raíz de una web?", opciones: ["Alias", "DocumentRoot", "Require", "ServerAdmin"], respuestaCorrecta: 1 },
+        { pregunta: "¿Qué directiva indica la carpeta raíz de una web?", opciones: ["Alias", "DocumentRoot", "Require", "ServerAdmin"], respuestaCorrecta: 1 }
+    ],
+
+    "Despliegue - Parte 2": [
         { pregunta: "¿Qué tecnología permite contenerizar aplicaciones?", opciones: ["MariaDB", "Docker", "Apache", "Git"], respuestaCorrecta: 1 },
         { pregunta: "¿Qué comando muestra el directorio actual?", opciones: ["ls", "pwd", "cd", "dir"], respuestaCorrecta: 1 },
         { pregunta: "¿Cuál es el puerto por defecto de un servicio FTP?", opciones: ["21", "22", "20", "443"], respuestaCorrecta: 0 },
@@ -1571,7 +1657,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué herramienta genera certificados SSL gratuitos?", opciones: ["Jenkins", "OpenSSL", "Gradle", "Certbot"], respuestaCorrecta: 3 },
         { pregunta: "¿Qué comando cambia permisos en Linux?", opciones: ["chmod", "grant", "perm", "chown"], respuestaCorrecta: 0 },
         { pregunta: "¿Qué herramienta web permite administrar bases de datos MySQL/MariaDB?", opciones: ["Docker Hub", "Jenkins", "Tomcat Manager", "phpMyAdmin"], respuestaCorrecta: 3 },
-        { pregunta: "¿Qué servidor de base de datos suele utilizar LAMP?", opciones: ["MariaDB/MySQL", "SQLite", "Oracle", "Redis"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué servidor de base de datos suele utilizar LAMP?", opciones: ["MariaDB/MySQL", "SQLite", "Oracle", "Redis"], respuestaCorrecta: 0 }
+    ],
+
+    "Despliegue - Parte 3": [
         { pregunta: "¿Qué formato de archivo se utiliza para empaquetar aplicaciones web Java para su despliegue?", opciones: [".zip", ".class", ".war", ".jsp"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué directorio contiene los logs de Apache normalmente?", opciones: ["/etc/apache2/logs", "/logs/apache", "/var/log/apache2", "/usr/logs"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué capa de una arquitectura web se encarga de comunicarse con la base de datos?", opciones: ["Capa de presentación", "Capa de red", "Capa de acceso a datos", "Servidor proxy"], respuestaCorrecta: 2 },
@@ -1591,7 +1680,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué registro DNS se utiliza para correo electrónico?", opciones: ["CNAME", "TXT", "MX", "PTR"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué tipo de servidor es Apache Tomcat?", opciones: ["Servidor de aplicaciones Java", "Servidor FTP", "Servidor de base de datos", "Servidor DNS"], respuestaCorrecta: 0 },
         { pregunta: "¿Qué comando muestra las imágenes Docker descargadas?", opciones: ["docker list", "docker show", "docker img", "docker images"], respuestaCorrecta: 3 },
-        { pregunta: "¿Qué comando cambia el propietario de un archivo?", opciones: ["chown", "owner", "chmod", "grant"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué comando cambia el propietario de un archivo?", opciones: ["chown", "owner", "chmod", "grant"], respuestaCorrecta: 0 }
+    ],
+
+    "Despliegue - Parte 4": [
         { pregunta: "¿Qué comando permite clonar un repositorio remoto en tu equipo?", opciones: ["git clone", "git fork", "git pull", "git copy"], respuestaCorrecta: 0 },
         { pregunta: "¿Qué comando elimina archivos?", opciones: ["remove", "erase", "rm", "del"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué lenguaje se ejecuta normalmente en Apache con mod_php?", opciones: ["Java", "PHP", "C#", "Kotlin"], respuestaCorrecta: 1 },
@@ -1791,7 +1883,7 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Cuál es la extensión de archivo típica para las plantillas en Django?[cite: 7]", opciones: [".template.[cite: 7]", ".django.[cite: 7]", ".html.[cite: 7]", ".tpl.[cite: 7]"], respuestaCorrecta: 2 },
         { pregunta: "En Django REST Framework, ¿cuál es el código de estado HTTP típico para una creación exitosa?[cite: 7]", opciones: ["200 OK.[cite: 7]", "204 No Content.[cite: 7]", "201 Created.[cite: 7]", "202 Accepted.[cite: 7]"], respuestaCorrecta: 2 }
     ],
-    "Python - Practicando los test": [
+"Python - Parte 1": [
         { pregunta: "¿Qué hace DELETE si el recurso existe?", opciones: ["Actualiza", "Elimina recurso", "Ignora", "Devuelve lista"], respuestaCorrecta: 1 },
         { pregunta: "¿Qué estructura es inmutable?", opciones: ["Diccionario", "Set", "Lista", "Tupla"], respuestaCorrecta: 3 },
         { pregunta: "¿Qué hace PUT en una API?", opciones: ["Eliminar", "Actualizar recurso", "Crear", "Leer"], respuestaCorrecta: 1 },
@@ -1811,7 +1903,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué hace raise HTTPException?", opciones: ["Lanza error HTTP", "Borra", "Crea objeto", "Actualiza"], respuestaCorrecta: 0 },
         { pregunta: "¿Para qué sirve un modelo en Django?", opciones: ["Procesar peticiones", "Renderizar vistas", "Definir la estructura de datos", "Gestionar rutas"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué hace path parameter en FastAPI?", opciones: ["Actualizar", "Recibir valor URL", "Crear ruta", "Eliminar"], respuestaCorrecta: 1 },
-        { pregunta: "¿Qué hace DELETE si no existe el recurso?", opciones: ["Crea recurso", "Nada", "Actualiza", "Devuelve error"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué hace DELETE si no existe el recurso?", opciones: ["Crea recurso", "Nada", "Actualiza", "Devuelve error"], respuestaCorrecta: 3 }
+    ],
+
+    "Python - Parte 2": [
         { pregunta: "¿Qué hace status.HTTP_201_CREATED?", opciones: ["OK", "Borrado", "Indica creación", "Error"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué hace query parameter?", opciones: ["Eliminar", "Crear objeto", "Recibir datos query", "Guardar"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué archivo define rutas en Django?", opciones: ["models.py", "views.py", "urls.py", "admin.py"], respuestaCorrecta: 2 },
@@ -1831,7 +1926,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué archivo contiene lógica en Django?", opciones: ["views.py", "models.py", "settings.py", "urls.py"], respuestaCorrecta: 0 },
         { pregunta: "¿Qué devuelve DELETE inexistente?", opciones: ["Lista", "Mensaje error", "Objeto", "Nada"], respuestaCorrecta: 1 },
         { pregunta: "¿Qué indica código 200?", opciones: ["Error", "Creado", "OK", "No encontrado"], respuestaCorrecta: 2 },
-        { pregunta: "¿Qué método muestra primeras filas en Pandas?", opciones: ["df.head()", "df.top()", "df.first()", "df.start()"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué método muestra primeras filas en Pandas?", opciones: ["df.head()", "df.top()", "df.first()", "df.start()"], respuestaCorrecta: 0 }
+    ],
+
+    "Python - Parte 3": [
         { pregunta: "¿Qué hace un parámetro tipado (id:int)?", opciones: ["Ignora", "Elimina", "Convierte siempre", "Valida tipo"], respuestaCorrecta: 3 },
         { pregunta: "¿Qué ocurre si un recurso no existe en FastAPI?", opciones: ["Se crea", "Se elimina", "Se devuelve error o mensaje", "Se ignora"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué devuelve jsonify en Flask?", opciones: ["Texto", "HTML", "XML", "JSON"], respuestaCorrecta: 3 },
@@ -1851,7 +1949,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué clase se usa en SQLAlchemy para definir modelos?", opciones: ["db.Table", "SQLAlchemy.Model", "db.Model", "Base.Model"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué tipo es True?", opciones: ["Entero", "Float", "String", "Booleano"], respuestaCorrecta: 3 },
         { pregunta: "¿Qué devuelve normalmente POST?", opciones: ["Error", "None", "Objeto creado", "Lista"], respuestaCorrecta: 2 },
-        { pregunta: "¿Qué hace un endpoint sin return?", opciones: ["Error o None", "Devuelve string", "Devuelve lista", "Devuelve JSON"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué hace un endpoint sin return?", opciones: ["Error o None", "Devuelve string", "Devuelve lista", "Devuelve JSON"], respuestaCorrecta: 0 }
+    ],
+
+    "Python - Parte 4": [
         { pregunta: "¿Qué estructura devuelve JSON?", opciones: ["Diccionario", "Tupla", "Set", "Lista"], respuestaCorrecta: 0 },
         { pregunta: "¿Qué hace @app.post en FastAPI?", opciones: ["Ejecuta consulta", "Define clase", "Renderiza HTML", "Define endpoint POST"], respuestaCorrecta: 3 },
         { pregunta: "¿Qué comando activa venv (Windows)?", opciones: ["run venv", "activate venv", "venv\\\\Scripts\\\\activate", "source venv/bin/activate"], respuestaCorrecta: 2 },
@@ -2142,7 +2243,7 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué permite el componente google-map?[cite: 12]", opciones: ["Crear rutas[cite: 12]", "Mostrar mapas interactivos[cite: 12]", "Gestionar formularios[cite: 12]", "Inyectar servicios[cite: 12]"], respuestaCorrecta: 1 },
         { pregunta: "¿Qué ventaja tiene usar Firebase en Angular?[cite: 12]", opciones: ["Elimina la necesidad de Router[cite: 12]", "Permite backend como servicio sin crear servidor propio[cite: 12]", "Sustituye HttpClient[cite: 12]", "Obliga a usar Bootstrap[cite: 12]"], respuestaCorrecta: 1 }
     ],
-    "Cliente - Practicando los test": [
+"Cliente - Parte 1": [
         { pregunta: "El método fetch() en JavaScript se utiliza para:", opciones: ["Generar rutas", "Modificar el DOM", "Crear eventos", "Realizar peticiones HTTP"], respuestaCorrecta: 3 },
         { pregunta: "¿Cuál es la forma correcta de incrementar un signal numérico?", opciones: ["valor++", "valor", "valor + 1", "this.valor"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué estado indica que una Promise se ha completado correctamente?", opciones: ["Pending", "Fulfilled", "Completed", "Rejected"], respuestaCorrecta: 1 },
@@ -2162,7 +2263,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué ocurre si haces this.signal = nuevoValor en Angular?", opciones: ["Funciona correctamente", "Mejora rendimiento", "Es obligatorio", "Rompe el patrón reactivo"], respuestaCorrecta: 3 },
         { pregunta: "¿Qué devuelve fetch() al ejecutarse?", opciones: ["Observable", "Objeto JavaScript", "Promise", "Signal"], respuestaCorrecta: 2 },
         { pregunta: "En fetch, ¿qué indica la propiedad ok?", opciones: ["La URL", "El contenido de la respuesta", "El tipo de datos", "Si la petición ha sido correcta"], respuestaCorrecta: 3 },
-        { pregunta: "¿Qué ocurre si un componente no tiene selector?", opciones: ["Da error automático", "Se convierte en servicio", "Se ejecuta igual", "No se puede usar en el HTML"], respuestaCorrecta: 3 },
+        { pregunta: "¿Qué ocurre si un componente no tiene selector?", opciones: ["Da error automático", "Se convierte en servicio", "Se ejecuta igual", "No se puede usar en el HTML"], respuestaCorrecta: 3 }
+    ],
+
+    "Cliente - Parte 2": [
         { pregunta: "¿Qué hace el binding {{ valor }} en Angular?", opciones: ["Ejecuta eventos", "Navega", "Muestra datos en el template", "Crea rutas"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué ocurre si modificas un signal sin usar set() o update()?", opciones: ["No se actualiza correctamente la vista", "Se reinicia el componente", "Da error automático", "Funciona igual"], respuestaCorrecta: 0 },
         { pregunta: "¿Qué decorador permite recibir datos desde un componente padre?", opciones: ["@Injectable()", "@Output()", "@Input()", "@Component()"], respuestaCorrecta: 2 },
@@ -2182,7 +2286,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "En Angular, ¿qué ocurre si no se hace subscribe() a un Observable HTTP?", opciones: ["No se ejecuta la petición", "Devuelve null", "Lanza error", "Se ejecuta automáticamente"], respuestaCorrecta: 0 },
         { pregunta: "En Angular, ¿qué métodos permiten modificar el valor de un signal correctamente?", opciones: ["push()", "set() y update()", "change()", "modify()"], respuestaCorrecta: 1 },
         { pregunta: "¿Cómo se accede al valor de un signal dentro del template?", opciones: ["signal()", "get(signal)", "signal.value", "signal"], respuestaCorrecta: 0 },
-        { pregunta: "¿Qué hace el método slice() en un array?", opciones: ["Devuelve una copia parcial", "Ordena el array", "Elimina elementos definitivamente", "Modifica el array original"], respuestaCorrecta: 0 },
+        { pregunta: "¿Qué hace el método slice() en un array?", opciones: ["Devuelve una copia parcial", "Ordena el array", "Elimina elementos definitivamente", "Modifica el array original"], respuestaCorrecta: 0 }
+    ],
+
+    "Cliente - Parte 3": [
         { pregunta: "¿Qué devuelve JSON.stringify(objeto)?", opciones: ["Una cadena en formato JSON", "Un objeto JSON", "Un archivo", "Una promesa"], respuestaCorrecta: 0 },
         { pregunta: "Un servicio en Angular se define como:", opciones: ["Un componente reutilizable", "Un módulo obligatorio", "Una clase para lógica compartida", "Una directiva"], respuestaCorrecta: 2 },
         { pregunta: "¿Dónde se define la plantilla HTML en un componente Angular?", opciones: ["template o templateUrl", "imports", "selector", "providers"], respuestaCorrecta: 0 },
@@ -2202,7 +2309,10 @@ const baseDeDatosPreguntas = {
         { pregunta: "¿Qué hace provideRouter(routes) en Angular?", opciones: ["Activa el sistema de rutas", "Define componentes", "Ejecuta HTTP", "Define signals"], respuestaCorrecta: 0 },
         { pregunta: "¿Qué devuelve jugadores().length si jugadores es un signal de tipo array?", opciones: ["Un string", "Un Observable", "El número de elementos", "Una Promise"], respuestaCorrecta: 2 },
         { pregunta: "Los standalone components permiten:", opciones: ["Reemplazar servicios", "Evitar el uso de NgModules", "Eliminar TypeScript", "Evitar rutas"], respuestaCorrecta: 1 },
-        { pregunta: "En Angular, ¿qué hace (click)=\"metodo()\"?", opciones: ["Navega", "Ejecuta un método al hacer click", "Crea un evento global", "Asigna un valor"], respuestaCorrecta: 1 },
+        { pregunta: "En Angular, ¿qué hace (click)=\"metodo()\"?", opciones: ["Navega", "Ejecuta un método al hacer click", "Crea un evento global", "Asigna un valor"], respuestaCorrecta: 1 }
+    ],
+
+    "Cliente - Parte 4": [
         { pregunta: "En Angular moderno, el bloque @if se utiliza para:", opciones: ["Iterar colecciones", "Crear rutas", "Renderizar contenido condicional", "Ejecutar HTTP"], respuestaCorrecta: 2 },
         { pregunta: "¿Qué es una Promise en JavaScript?", opciones: ["Un valor inmediato", "Un array", "Un signal", "Un valor que estará disponible en el futuro"], respuestaCorrecta: 3 },
         { pregunta: "¿Qué hace el evento (input) en Angular?", opciones: ["Modifica signals automáticamente", "Detecta cambios en un campo de entrada", "Ejecuta rutas", "Ejecuta HTTP"], respuestaCorrecta: 1 },
